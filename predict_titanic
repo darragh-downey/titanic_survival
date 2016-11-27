@@ -1,0 +1,12 @@
+import numpy as np
+import pandas as pd
+from IPython.display import display
+
+import visuals as vs
+
+#matplotlib inline
+
+in_file = 'titanic_data.csv'
+full_data = pd.read_csv(in_file)
+
+display(full_data.head())
